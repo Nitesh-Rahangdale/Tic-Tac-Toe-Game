@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo:ital,wght@1,300&family=Lato:wght@300;400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@300&family=Poppins:wght@500&family=Prompt&family=Roboto:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.608);
+
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.7rem;
+}
+
+.container {
+    border: 2px solid black;
+    text-align: center;
+    
+    width: 25rem;
+}
+
+.main {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    color: rgba(0, 0, 0, 0.823);
+    font-size: 3rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+    border: none;
+    height: 6rem;
+    width: 6rem;
+    background-color: rgba(118, 173, 221, 0.315);
+
+}
+
+
+
+#reset-btn {
+    font-family: "Prompt", sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.297);
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+ 
+
+
+.player2 {
+    margin-top: 10px;
+}
+
+.player .input-1 {
+    position: absolute;
+
+    left: 45rem;
+    border: transparent;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.297);
+    text-align: center;
+    width: 15rem;
+    height: 2rem;
+}
+
+::placeholder {
+    
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.msg-container {
+    margin-top: 15rem;
+    margin-bottom: 30rem;
+}
+
+
+
+.msg-container p {
+    font-weight: bold;
+
+    font-family: "Poppins", sans-serif;
+    color: green;
+    font-size: 3rem;
+
+}
+
+#new-btn {
+    font-family: "Prompt", sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    background-color: rgb(200, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.297);
+    padding: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.hide {
+    display: none;
+}
